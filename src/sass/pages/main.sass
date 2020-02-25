@@ -1,0 +1,213 @@
+section, header, footer
+	background-color: #f6f6f6
+	
+header
+	padding: 20px 0
+
+.header-menu
+	display: flex
+	justify-content: flex-end
+	li
+		margin-right: 20px
+		display: flex
+		align-items: center
+		a
+			font-size: 16px
+			font-weight: 400
+		&:last-child
+			margin-right: 0
+
+.btn
+	padding: 4px 22px
+	background-color: $main
+	border: 2px solid $l-main
+	border-radius: 4px
+	color: $white
+	transition: all 300ms
+	&:hover
+		background-color: $white
+		color: $main
+
+.wa-btn
+	background-color: #68cf97
+	border: 2px solid #68cf97
+	&:hover
+		color: #68cf97
+
+.hero
+	padding: 40px 0
+	min-height: 90vh
+	display: flex
+	align-items: center
+
+.hero_img
+	display: flex
+	justify-content: flex-end
+	img
+		max-width: 440px
+
+.hero_title__group
+	height: 100%
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+.hero_above_title
+	color: $subtitle
+	font-size: 16px
+	font-weight: 400
+
+.hero_main_title
+	font-size: 35px
+	font-weight: 700
+	margin: 10px 0
+
+.hero_subtitle
+	color: $title
+	font-size: 18px
+	font-weight: 300
+
+.div
+	padding: 40px 0 0 0
+
+.hero_btn
+	padding: 9px 53px
+	display: inline
+	font-size: 18px
+	line-height: 21px
+
+// CATALOG SECTION
+
+.main_catalog
+	padding: 40px 0
+
+.section_title
+	display: flex
+	flex-direction: column
+	border-bottom: 2px solid $main
+	padding: 20px 0
+	margin-bottom: 40px
+	h3
+		font-size: 28px
+		font-weight: 500
+
+.catalog_item
+	border: 1px solid $subtitle
+	display: flex
+	flex-direction: column
+	align-items: center
+	// justify-content: center
+	width: 100%
+	// height: 100%
+	padding: 40px 38px
+	margin-bottom: 30px
+	background-color: #ffffff
+	transition: all 300ms
+	&:hover
+		box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25)
+
+.catalog_big_item
+	padding: 90px 80px
+	flex-direction: row
+	.big_item_img
+		margin-right: 40px
+
+.item_content__title
+	font-size: 18px
+	font-weight: 400
+	color: $title
+	text-decoration: underline
+	display: block
+
+.item_content__subtitle
+	font-size: 14px
+	font-weight: 300
+	color: $subtitle
+	margin-top: 10px
+	margin-bottom: 20px
+
+.item_content_btn
+	a
+		width: 100%
+
+.item_btn
+	width: 100%
+
+//MAIN FORM
+
+.form
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	text-align: center
+
+.form_above__title
+	font-size: 18px
+	font-weight: 300
+	color: $title
+
+.form_title
+	font-size: 28px
+	font-weight: 500
+	margin-bottom: 10px
+
+.form_subtitle
+	font-size: 14px
+	font-weight: 300
+	color: $subtitle
+	margin-bottom: 20px
+
+.main_input
+	width: 100%
+	padding: 10px
+	margin-bottom: 20px
+	border: 2px solid #e9e9e9
+	border-radius: 8px
+	transition: all 300ms
+	outline: none
+	&:focus
+		border: 2px solid $l-main
+
+.form_btn
+	width: 100%
+
+//CONTACTS
+
+.catalog--contacts
+	padding: 60px
+	align-items: center
+	height: 100%
+	max-height: 373px
+
+.title--contacts
+	margin-bottom: 0px
+	border: none
+
+.contact_info
+	display: flex
+	flex-direction: column
+	justify-content: center
+	max-width: 220px
+
+.info_item
+	display: flex
+	align-items: center
+	margin-bottom: 10px
+	p
+		font-size: 14px
+		font-weight: 400
+		margin-left: 6px
+		color: #333333
+
+.time--red
+	color: tomato
+	font-weight: 500
+
+footer
+	padding: 20px
+	text-align: center
+	color: $subtitle
+	font-size: 16px
+	font-weight: 300
+	border-top: 2px solid #e9e9e9
